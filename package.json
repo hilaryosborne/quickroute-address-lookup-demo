@@ -1,0 +1,31 @@
+{
+  "name": "quickroute-address-lookup-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hilaryosborne/quickroute-address-lookup-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hilaryosborne/quickroute-address-lookup-demo/issues"
+  },
+  "homepage": "https://github.com/hilaryosborne/quickroute-address-lookup-demo#readme",
+  "devDependencies": {
+    "@types/node": "^24.6.1",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@hilaryosborne/quickroute-address-lookup": "^1.1.0",
+    "dotenv": "^17.2.3",
+    "fastify": "^5.6.1",
+    "nanoid": "^5.1.6",
+    "ts-node-dev": "^2.0.0"
+  }
+}
